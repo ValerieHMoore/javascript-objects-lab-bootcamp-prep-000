@@ -4,6 +4,6 @@ lunch: 'sandwich',
 dinner: 'entree'
 }
 function updateObjectWithKeyAndValue(object, key, value) {
-const recipes.dessert = 'cake';
+recipes.dessert = 'cake';
 return Object.assign({}, recipes, {[dessert]: cake})
 }
