@@ -4,5 +4,5 @@ lunch: 'sandwich',
 dinner: 'entree'
 }
 function updateObjectWithKeyAndValue(object, key, value) {
-  
+  return Object.assign ({}, recipes, {[dessert]: cake})
 }
